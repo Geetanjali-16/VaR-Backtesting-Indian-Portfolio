@@ -1,0 +1,27 @@
+                    Method  Days  Exceptions  Expected  Exception rate %  Kupiec p-value Kupiec  Christoffersen p-value Basel zone (last 250d)
+                Historical  2641          36      26.4              1.36           0.076   Pass                   0.013                 Yellow
+                Parametric  2641          43      26.4              1.63           0.003 Reject                   0.195                 Yellow
+               Monte Carlo  2641          27      26.4              1.02           0.908   Pass                   0.280                  Green
+Filtered historical (EWMA)  2641          32      26.4              1.21           0.290   Pass                   0.405                  Green
+
+                     Method     Regime  Days  Exceptions
+                Historical    Low vol   874           4
+                Historical Medium vol   873          16
+                Historical   High vol   874          16
+                Parametric    Low vol   874           4
+                Parametric Medium vol   873          14
+                Parametric   High vol   874          25
+               Monte Carlo    Low vol   874           2
+               Monte Carlo Medium vol   873           7
+               Monte Carlo   High vol   874          18
+Filtered historical (EWMA)    Low vol   874          12
+Filtered historical (EWMA) Medium vol   873           9
+Filtered historical (EWMA)   High vol   874          11
+
+                              Scenario  Portfolio loss %
+                     Worst single day            -12.24
+Worst 10-day period (ends 2020-03-23)            -31.07
+             Worst 10-day period x1.5            -46.61
+               Worst 10-day period x2            -62.14
+
+Saved var_report.xlsx and var_backtest.png
